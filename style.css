@@ -33,12 +33,88 @@ body {
 }
 
 .image-banner {
+    max-height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: darkslategrey;
-    flex: 1 1 50%;
-    margin: 16px;
+    flex: 1 0 50%;
+}
+
+.section-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.section-b-header {
+    margin: 48px 0;
+}
+
+.image-container {
+    display: flex;
+    gap: 32px;
+}
+
+.image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.section-c {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    padding: 128px 0;
+    margin: 0 30%;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.section-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 0;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: 0 20%;
+    display: flex;
+    background-color: #3882F6;
+    flex-basis: 100%;
+    padding: 16px 64px;
+    border-radius: 16px;
+}
+
+.bottom-button {
+    border: 2px white solid;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
 }
 
 h1 {
@@ -71,6 +147,7 @@ button {
     padding: 8px 16px;
     border-radius: 8px;
     width: 125px;
+    border: none;
 }
 
 button:hover {
@@ -78,5 +155,5 @@ button:hover {
 }
 
 button:active {
-    background-origin:blue;
+    background-color: blue;
 }
